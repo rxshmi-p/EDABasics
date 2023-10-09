@@ -1,6 +1,6 @@
 # EDABasics
 
-<img src="https://github.com/rxshmi-p/EDABasics/assets/86248667/966dc278-3f7b-44d7-9f30-1b8e4a4c86ad" width="48">
+<img src="https://github.com/rxshmi-p/EDABasics/assets/86248667/966dc278-3f7b-44d7-9f30-1b8e4a4c86ad" width="480">
 
 
 
