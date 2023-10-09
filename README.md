@@ -28,5 +28,49 @@ Once we had a general overview, we were able to select a target feature to inves
 
 ![image](https://github.com/rxshmi-p/EDABasics/assets/86248667/1aba051b-5efb-4924-b851-d69c9c44ae05)
 
+## Data Cleaning 
+Next we check for any weird columns that might need some preprocessing. For example, the column "Subtitles" has the uniques as shown below. 
 
+<img width="361" alt="Screen Shot 2023-10-08 at 9 21 38 PM" src="https://github.com/rxshmi-p/EDABasics/assets/86248667/c8c48898-b678-4433-8217-5476e65ba314">
+
+Since uppercase Yes and lowercase yes have the same meaning, we can change all values to be lowercase. As well we can make an assumption that a nan response is the same as a No. After making these changes we now only have two response categories. 
+
+Next we handle any missing values with the process of imputation. Using the .isna() function we are able to see if any missing values exist in any columns and get their sums using .sum() 
+
+<img width="361" alt="Screen Shot 2023-10-08 at 9 24 53 PM" src="https://github.com/rxshmi-p/EDABasics/assets/86248667/4951b9ed-5684-4ce9-bbe5-64ae5a55a683">
+
+An interesting discovery in this stage was that the significant number of missing values in the Creator Gender column can be traced back to the fact that those videos were posted by a company, which has no gender. To handle these missing values, we can create a third column in Creator Gender, called Company. This is easily done using the .fillna() function. 
+
+<img width="576" alt="Screen Shot 2023-10-08 at 9 28 32 PM" src="https://github.com/rxshmi-p/EDABasics/assets/86248667/ffbd0d90-a8d0-46f2-a573-478e61f5d4c3">
+
+After this we are also able to change any column types to categorical or numeric as needed using pd.Categorical or pd.to_numeric. 
+
+<img width="637" alt="Screen Shot 2023-10-08 at 9 29 48 PM" src="https://github.com/rxshmi-p/EDABasics/assets/86248667/96f477ec-b0c3-46d7-a908-9320f069f222">
+
+## Data Visualization 
+Now that the data has been cleaned, it is ready for visualization. To gain insights into the relationships between various features in the dataset, the use of plots can be highly beneficial. Here are some plots that we generated to delve deeper into the data:
+
+Scatter Plot (Subscribers vs. Likes):
+![image](https://github.com/rxshmi-p/EDABasics/assets/86248667/da11bb02-8e74-4bb1-9c72-f9c1407b65e3)
+
+
+Chosen Plot: Scatter plot was selected to explore the relationship between the number of subscribers and the number of likes. This was done using matplotlib.pyplot.scatter()
+
+Purpose: It illustrates whether there’s a correlation or pattern between these two variables; higher subscribers might lead to more likes.
+
+
+
+2. Bar Chart (Hashtags vs. Average Likes):
+![image](https://github.com/rxshmi-p/EDABasics/assets/86248667/d60215b7-6ba0-4240-b889-aeef1f8bc381)
+
+- Chosen Plot: Bar chart was used to display the average number of likes for different numbers of hashtags. This was done using matplotlib.pyplot.bar()
+
+- Purpose: It shows whether the use of hashtags has an impact on the average likes; higher bars indicate potentially higher engagement for certain hashtag counts.
+
+
+## Conclusion 
+These were the steps we chose to begin understanding this data better. However, EDA is an experimental process that is highly flexible and meant for individual understanding. As such, we could continue this process as much as we felt needed. Some areas we would look into further include:
+- Outlier Removal: Identifying and removing outliers is crucial to improve data visualization and analysis accuracy.
+- Date-Time Features: Analyzing features like release dates and last comment dates can reveal how time affects video likes.
+- Text Features: Examining video titles and descriptions with NLP techniques can uncover factors influencing viewer engagement.
 
