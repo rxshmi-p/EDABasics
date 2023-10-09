@@ -26,9 +26,7 @@ To get a high level overview of the data, we first viewed the first few rows of 
 
 Once we had a general overview, we were able to select a target feature to investigate. For this demo, we selected the "Number of Likes" feature. In order to better understand this attribute, we plotted a histogram of the column values and identified that there were some very large outliers, but the vast majority of the values were clustered together.
 
-![image](https://github.com/rxshmi-p/EDABasics/assets/86248667/0cc5bdc6-0a67-4535-a505-0bc9fda63692)
-
-
+![image](https://github.com/rxshmi-p/EDABasics/assets/86248667/1aba051b-5efb-4924-b851-d69c9c44ae05)
 
 
 
