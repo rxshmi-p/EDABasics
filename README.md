@@ -29,6 +29,7 @@ To get a high level overview of the data, we first viewed the first few rows of 
 
 Once we had a general overview, we were able to select a target feature to investigate. For this demo, we selected the "Number of Likes" feature. In order to better understand this attribute, we plotted a histogram of the column values and identified that there were some very large outliers, but the vast majority of the values were clustered together.
 
+
 ![image](https://github.com/rxshmi-p/EDABasics/assets/86248667/a110f548-75c4-4ce8-907d-6ad760d91774)
 
 ## Data Cleaning 
@@ -55,7 +56,9 @@ Now that the data has been cleaned, it is ready for visualization. To gain insig
 
 Scatter Plot (Subscribers vs. Likes):
 
-![image](https://github.com/rxshmi-p/EDABasics/assets/86248667/7f2a9249-f0d1-440e-b686-ac076aa5e0dd)
+<p align="center">
+  <img src="[https://github.com/rxshmi-p/EDABasics/assets/86248667/966dc278-3f7b-44d7-9f30-1b8e4a4c86ad](https://github.com/rxshmi-p/EDABasics/assets/86248667/7f2a9249-f0d1-440e-b686-ac076aa5e0dd)" width="480">
+</p>
 
 Chosen Plot: Scatter plot was selected to explore the relationship between the number of subscribers and the number of likes. This was done using matplotlib.pyplot.scatter()
 
