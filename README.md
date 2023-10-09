@@ -56,9 +56,7 @@ Now that the data has been cleaned, it is ready for visualization. To gain insig
 
 Scatter Plot (Subscribers vs. Likes):
 
-<p align="center">
-  <img src="[https://github.com/rxshmi-p/EDABasics/assets/86248667/966dc278-3f7b-44d7-9f30-1b8e4a4c86ad](https://github.com/rxshmi-p/EDABasics/assets/86248667/7f2a9249-f0d1-440e-b686-ac076aa5e0dd)" width="480">
-</p>
+![image](https://github.com/rxshmi-p/EDABasics/assets/86248667/b490b88b-c88e-4c95-985a-d3092df98aa2)
 
 Chosen Plot: Scatter plot was selected to explore the relationship between the number of subscribers and the number of likes. This was done using matplotlib.pyplot.scatter()
 
