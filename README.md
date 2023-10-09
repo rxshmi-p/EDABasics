@@ -26,7 +26,7 @@ To get a high level overview of the data, we first viewed the first few rows of 
 
 Once we had a general overview, we were able to select a target feature to investigate. For this demo, we selected the "Number of Likes" feature. In order to better understand this attribute, we plotted a histogram of the column values and identified that there were some very large outliers, but the vast majority of the values were clustered together.
 
-![image](https://github.com/rxshmi-p/EDABasics/assets/86248667/1aba051b-5efb-4924-b851-d69c9c44ae05)
+![image](https://github.com/rxshmi-p/EDABasics/assets/86248667/a110f548-75c4-4ce8-907d-6ad760d91774)
 
 ## Data Cleaning 
 Next we check for any weird columns that might need some preprocessing. For example, the column "Subtitles" has the uniques as shown below. 
@@ -52,8 +52,7 @@ Now that the data has been cleaned, it is ready for visualization. To gain insig
 
 Scatter Plot (Subscribers vs. Likes):
 
-![image](https://github.com/rxshmi-p/EDABasics/assets/86248667/da11bb02-8e74-4bb1-9c72-f9c1407b65e3)
-
+![image](https://github.com/rxshmi-p/EDABasics/assets/86248667/7f2a9249-f0d1-440e-b686-ac076aa5e0dd)
 
 Chosen Plot: Scatter plot was selected to explore the relationship between the number of subscribers and the number of likes. This was done using matplotlib.pyplot.scatter()
 
@@ -62,7 +61,8 @@ Purpose: It illustrates whether there’s a correlation or pattern between these
 
 
 2. Bar Chart (Hashtags vs. Average Likes):
-![image](https://github.com/rxshmi-p/EDABasics/assets/86248667/d60215b7-6ba0-4240-b889-aeef1f8bc381)
+
+![image](https://github.com/rxshmi-p/EDABasics/assets/86248667/cc0f224c-8d75-4fdf-9f17-61c05e5a7b39)
 
 - Chosen Plot: Bar chart was used to display the average number of likes for different numbers of hashtags. This was done using matplotlib.pyplot.bar()
 
