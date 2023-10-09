@@ -23,8 +23,9 @@ Some useful libraries for data visualization include:
 
 To get a high level overview of the data, we first viewed the first few rows of the dataset using df.head(). This gives us a better understanding of the various features in the dataset as well as what to expect in terms of data types and normal values. From this point we used a variety of functions to get a better understanding of the overall shape of the data as well as the various data types for each feature. This information helped us to determine any initial outliers and data types that may be inaccurate.
 
-<img width="1125" alt="Screen Shot 2023-10-08 at 9 48 14 PM" src="https://github.com/rxshmi-p/EDABasics/assets/86248667/0cd42e80-7f46-4bad-903a-278d7bbe6c37">
-
+<p align="center">
+  <img src="https://github.com/rxshmi-p/EDABasics/assets/86248667/0cd42e80-7f46-4bad-903a-278d7bbe6c37" width="480">
+</p>
 
 Once we had a general overview, we were able to select a target feature to investigate. For this demo, we selected the "Number of Likes" feature. In order to better understand this attribute, we plotted a histogram of the column values and identified that there were some very large outliers, but the vast majority of the values were clustered together.
 
