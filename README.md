@@ -11,9 +11,11 @@ The purpose of this notebook is to explain the basics of the EDA process using a
 
 ## Data Exploration 
 In this stage we aim to understand what the data looks like on a high level. 
+
 Some useful libraries for data processing include:
 - Pandas
 - Numpy
+
 Some useful libraries for data visualization include: 
 - Seaborn
 - Matplotlib 
