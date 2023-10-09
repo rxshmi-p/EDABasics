@@ -54,7 +54,7 @@ After this we are also able to change any column types to categorical or numeric
 ## Data Visualization 
 Now that the data has been cleaned, it is ready for visualization. To gain insights into the relationships between various features in the dataset, the use of plots can be highly beneficial. Here are some plots that we generated to delve deeper into the data:
 
-Scatter Plot (Subscribers vs. Likes):
+1. Scatter Plot (Subscribers vs. Likes):
 
 ![image](https://github.com/rxshmi-p/EDABasics/assets/86248667/b490b88b-c88e-4c95-985a-d3092df98aa2)
 
